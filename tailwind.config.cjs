@@ -1,6 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-const colors = require('./lib/colors').tailwindColors;
-
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -23,11 +21,11 @@ module.exports = {
           900: '#581c87',
         },
         brand: {
-          primary: colors['brand-primary'],
-          secondary: colors['brand-secondary'],
-          accent: colors['brand-accent'],
-          dark: colors['brand-dark'],
-          darkest: colors['brand-darkest'],
+          primary: '#74279e',
+          secondary: '#8e40d8',
+          accent: '#a855f7',
+          dark: '#4c1d95',
+          darkest: '#1e1b1b',
         },
       },
       fontFamily: {

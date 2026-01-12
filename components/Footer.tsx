@@ -1,6 +1,11 @@
+'use client'
+
 import { Mail, Phone, Clock, Instagram } from 'lucide-react'
+import { useTranslations } from 'next-intl'
 
 export default function Footer() {
+  const t = useTranslations('Footer')
+  
   return (
     <footer className="bg-gray-900 text-gray-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -9,35 +14,35 @@ export default function Footer() {
           <div className="md:col-span-2">
             <h3 className="text-2xl font-bold text-white mb-4">GODE Devs</h3>
             <p className="mb-4 leading-relaxed">
-              Transformamos ideas en software excepcional. Somos tu socio tecnológico para el éxito digital.
+              {t('description')}
             </p>
             <p className="text-sm text-gray-400">
-              Especialistas en automatización inteligente y soluciones fintech a la medida.
+              {t('tagline')}
             </p>
           </div>
 
           {/* Servicios */}
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">Especialidades</h4>
+            <h4 className="text-lg font-semibold text-white mb-4">{t('specialties')}</h4>
             <ul className="space-y-2">
               <li>
                 <a href="#nuestro-foco" className="hover:text-purple-400 transition-colors">
-                  Inteligencia Conversacional
+                  {t('conversational')}
                 </a>
               </li>
               <li>
                 <a href="#nuestro-foco" className="hover:text-purple-400 transition-colors">
-                  Soluciones Fintech
+                  {t('fintech')}
                 </a>
               </li>
               <li>
-                <a href="#quienes-somos" className="hover:text-white transition-colors">
-                  Desarrollo a Medida
+                <a href="#quienes-somos" className="hover:text-purple-400 transition-colors">
+                  {t('custom')}
                 </a>
               </li>
               <li>
-                <a href="#equipo" className="hover:text-white transition-colors">
-                  Consultoría Tech
+                <a href="#equipo" className="hover:text-purple-400 transition-colors">
+                  {t('consulting')}
                 </a>
               </li>
             </ul>
@@ -45,7 +50,7 @@ export default function Footer() {
 
           {/* Contacto */}
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">Contacto</h4>
+            <h4 className="text-lg font-semibold text-white mb-4">{t('contact')}</h4>
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
                 <Mail className="w-5 h-5 text-purple-400 flex-shrink-0 mt-0.5" />
@@ -81,17 +86,17 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-400 mb-4 md:mb-0">
-            © {new Date().getFullYear()} GODE Devs. Todos los derechos reservados.
+            © {new Date().getFullYear()} GODE Devs. {t('rights')}
           </p>
           <div className="flex gap-6 text-sm">
-            <a href="#inicio" className="hover:text-white transition-colors">
-              Inicio
+            <a href="#inicio" className="hover:text-purple-400 transition-colors">
+              {t('home')}
             </a>
-            <a href="#quienes-somos" className="hover:text-white transition-colors">
-              Nosotros
+            <a href="#quienes-somos" className="hover:text-purple-400 transition-colors">
+              {t('about')}
             </a>
-            <a href="#contacto" className="hover:text-white transition-colors">
-              Contacto
+            <a href="#contacto" className="hover:text-purple-400 transition-colors">
+              {t('contact')}
             </a>
           </div>
         </div>

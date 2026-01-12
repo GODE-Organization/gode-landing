@@ -1,8 +1,11 @@
 'use client'
 
 import { ArrowRight, Sparkles, Zap } from 'lucide-react'
+import { useTranslations } from 'next-intl'
 
 export default function Hero() {
+  const t = useTranslations('Hero')
+  
   return (
     <section
       id="inicio"
@@ -19,35 +22,37 @@ export default function Hero() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-purple-900/40 text-purple-300 border border-purple-700/50 rounded-full text-sm font-medium mb-8 backdrop-blur-sm">
             <Sparkles className="w-4 h-4" />
-            Automatización Inteligente a la Medida
+            {t('badge')}
           </div>
 
           {/* Main Headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            Automatización Inteligente que
-            <span className="block gradient-text"> Transforma tu Negocio</span>
+            {t('title')}
+            <span className="block gradient-text"> {t('titleHighlight')}</span>
           </h1>
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Desarrollamos <span className="font-semibold text-purple-400">asistentes virtuales con IA</span> y{' '}
-            <span className="font-semibold text-purple-400">soluciones fintech</span> que escalan tus operaciones{' '}
-            <span className="font-semibold text-white">24/7</span>
+            {t.rich('subtitle', {
+              ai: (chunks) => <span className="font-semibold text-purple-400">{chunks}</span>,
+              fintech: (chunks) => <span className="font-semibold text-purple-400">{chunks}</span>,
+              availability: (chunks) => <span className="font-semibold text-white">{chunks}</span>,
+            })}
           </p>
 
           {/* Features */}
           <div className="flex flex-wrap justify-center gap-6 mb-12 text-gray-300">
             <div className="flex items-center gap-2">
               <Zap className="w-5 h-5 text-purple-400" />
-              <span className="font-medium">Disponibilidad 24/7</span>
+              <span className="font-medium">{t('feature24')}</span>
             </div>
             <div className="flex items-center gap-2">
               <Sparkles className="w-5 h-5 text-purple-400" />
-              <span className="font-medium">IA de Última Generación</span>
+              <span className="font-medium">{t('featureAI')}</span>
             </div>
             <div className="flex items-center gap-2">
               <ArrowRight className="w-5 h-5 text-purple-400" />
-              <span className="font-medium">Soluciones a Medida</span>
+              <span className="font-medium">{t('featureCustom')}</span>
             </div>
           </div>
 
@@ -57,14 +62,14 @@ export default function Hero() {
               href="#contacto"
               className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-purple-600 to-purple-700 text-white font-semibold rounded-lg hover:from-purple-700 hover:to-purple-800 transition-all duration-200 shadow-lg shadow-purple-900/50 hover:shadow-xl transform hover:-translate-y-0.5"
             >
-              Agenda tu Consulta Estratégica
+              {t('ctaPrimary')}
               <ArrowRight className="w-5 h-5" />
             </a>
             <a
               href="#caso-exito"
               className="inline-flex items-center gap-2 px-8 py-4 bg-gray-800 text-purple-400 font-semibold rounded-lg border-2 border-purple-600 hover:bg-gray-700 transition-all duration-200"
             >
-              Conoce Nuestro Caso de Éxito
+              {t('ctaSecondary')}
             </a>
           </div>
         </div>

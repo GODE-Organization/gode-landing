@@ -1,0 +1,234 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "focus": "Our Focus",
+    "success": "Success Case",
+    "team": "Team",
+    "contact": "Contact",
+    "schedule": "Schedule Consultation"
+  },
+  "Hero": {
+    "badge": "Intelligent Automation Made to Measure",
+    "title": "Intelligent Automation that",
+    "titleHighlight": "Transforms Your Business",
+    "subtitle": "We develop <ai>AI-powered virtual assistants</ai> and <fintech>fintech solutions</fintech> that scale your operations <availability>24/7</availability>",
+    "ai": "AI-powered virtual assistants",
+    "fintech": "fintech solutions",
+    "availability": "24/7",
+    "feature24": "24/7 Availability",
+    "featureAI": "Cutting-Edge AI",
+    "featureCustom": "Custom Solutions",
+    "ctaPrimary": "Schedule Your Strategic Consultation",
+    "ctaSecondary": "See Our Success Case"
+  },
+  "AboutUs": {
+    "title": "About Us",
+    "subtitle": "A founding team of specialized engineers who transform ideas into high-impact technological solutions",
+    "heading": "GODE Devs: Software Engineering and Custom Solutions",
+    "description1": "We are a custom technology development service based in {location}. Our value lies in a founding team composed of {engineers} with deep technical specializations.",
+    "location": "Nueva Esparta, Venezuela",
+    "engineers": "four systems engineers",
+    "description2": "We define ourselves as a {partner} focused on custom solutions, dedicated to translating technical complexity into a quantifiable competitive advantage for our clients.",
+    "partner": "technology partner",
+    "description3": "We have experience in developing intelligent automation solutions and intellectual property assets, including work for the academic sector (Margarita University - UNIMAR) and the fintech industry internationally.",
+    "engineersCount": "4 Engineers",
+    "engineersDesc": "Founding team specialized in: Backend, Frontend, FullStack and QA",
+    "year": "1 Year",
+    "yearDesc": "Working together as a specialized team",
+    "locationLabel": "Nueva Esparta",
+    "locationDesc": "Venezuela - Working for international clients",
+    "experience": "Real Experience",
+    "experienceDesc": "UNIMAR and Fintech in Colombia",
+    "credentials": "Our Credentials",
+    "academic": "Academic Sector",
+    "academicDesc": "We have developed solutions for {unimar}, contributing to the digital transformation of the education sector.",
+    "unimar": "Margarita University (UNIMAR)",
+    "fintech": "Fintech Industry",
+    "fintechDesc": "Experience in developing {fintechSolutions} mainly in Colombia and other international markets.",
+    "fintechSolutions": "virtual wallets, asset traceability and financial data management"
+  },
+  "OurFocus": {
+    "title": "Our Focus of Specialization",
+    "subtitle": "We specialize in two key areas that transform how companies operate and grow",
+    "ia": {
+      "title": "Conversational Intelligence Made to Measure",
+      "description": "We develop virtual assistants and advanced chatbots with Artificial Intelligence (AI), designed to efficiently solve the need for automated customer service.",
+      "chatbots": {
+        "title": "Advanced AI Chatbots",
+        "desc": "Virtual assistants with Natural Language Processing (NLP) for advanced understanding of user intent."
+      },
+      "availability": {
+        "title": "24/7 Availability",
+        "desc": "Guaranteed continuous operational availability, improving customer experience and maximizing sales opportunities."
+      },
+      "optimization": {
+        "title": "Process Optimization",
+        "desc": "Reduction of staff time dedicated to routine operational tasks through intelligent automation."
+      },
+      "scalability": {
+        "title": "Automatic Scalability",
+        "desc": "Solutions that scale your operations without proportionally increasing operating costs."
+      }
+    },
+    "fintech": {
+      "title": "International Fintech Solutions",
+      "description": "We design and model international financial solutions with transactional movements mainly in Colombia and other countries. Enabling simplified access to digital funds and crypto.",
+      "transactions": {
+        "title": "Transactional Movements",
+        "desc": "Design and modeling of international financial solutions mainly in Colombia and other countries."
+      },
+      "digital": {
+        "title": "Digital Funds and Crypto",
+        "desc": "Enabling simplified and secure access to digital funds and crypto."
+      },
+      "tracking": {
+        "title": "Asset Traceability",
+        "desc": "Robust systems for tracking and controlling financial assets in real time."
+      },
+      "apis": {
+        "title": "APIs and Robust Backend",
+        "desc": "Scalable architectures and secure APIs for high-performance financial applications."
+      }
+    }
+  },
+  "SuccessCase": {
+    "title": "Our Success Case",
+    "subtitle": "Although we are a new team, we have already completed successful projects that demonstrate our potential and commitment",
+    "badge": "Completed Project",
+    "heading": "Successful Project: Intelligent Automation",
+    "description1": "We have completed our first successful project, demonstrating our ability to deliver high-quality technological solutions. This project has allowed us to validate our methodologies and strengthen our team.",
+    "description2": "{approach}: We don't measure our success by the number of projects, but by the {quality} of each solution we develop. Each project is an opportunity to demonstrate our commitment to technical excellence.",
+    "approach": "Our approach",
+    "quality": "quality and impact",
+    "validated": "Validated Experience",
+    "validatedDesc": "Projects completed with proven methodologies",
+    "qualityTitle": "Quality Focus",
+    "qualityDesc": "Each project receives personalized and dedicated attention",
+    "commitment": "Proven Commitment",
+    "commitmentDesc": "Timely deliveries and continuous support",
+    "values": "Our Values",
+    "results": "Results Focus",
+    "resultsDesc": "Each project is designed to generate real and measurable value",
+    "innovation": "Constant Innovation",
+    "innovationDesc": "We use the latest technologies and industry best practices",
+    "teamwork": "Teamwork",
+    "teamworkDesc": "Close collaboration with our clients at every stage",
+    "growth": "Continuous Growth",
+    "growthDesc": "We learn and improve with each project we complete",
+    "metrics": {
+      "engineers": "Specialized Engineers",
+      "custom": "Focus on Custom Solutions",
+      "availability": "Guaranteed Availability",
+      "experience": "Year of Experience"
+    }
+  },
+  "WhyChooseUs": {
+    "title": "Why Choose GODE Devs",
+    "subtitle": "We are more than developers. We are your technology partner for digital transformation",
+    "founders": {
+      "title": "Specialized Founding Team",
+      "desc": "Four systems engineers with deep technical specializations: Backend, Frontend, FullStack and Quality Assurance (QA). Each member brings unique experience to the project."
+    },
+    "custom": {
+      "title": "Custom Solutions",
+      "desc": "We don't sell generic products. Each solution is designed specifically for your organization's needs, translating technical complexity into competitive advantage."
+    },
+    "ia": {
+      "title": "Conversational AI Experience",
+      "desc": "Proven specialization in developing virtual assistants and advanced chatbots with Artificial Intelligence, integrating Natural Language Processing (NLP)."
+    },
+    "fintech": {
+      "title": "Fintech Knowledge",
+      "desc": "Experience in developing international financial solutions, virtual wallets, asset traceability and financial data management in Colombia and other countries."
+    },
+    "availability": {
+      "title": "24/7 Availability",
+      "desc": "Guaranteed continuous operational availability for your automated systems, improving customer experience and maximizing sales opportunities."
+    },
+    "transparency": {
+      "title": "Transparency and Communication",
+      "desc": "Transparent and continuous communication at every stage of the project. You'll know exactly what's happening and when, with no surprises or hidden costs."
+    },
+    "optimization": {
+      "title": "Process Optimization",
+      "desc": "Potential reduction of staff time dedicated to routine operational tasks through intelligent automation, allowing you to focus on what really matters."
+    },
+    "support": {
+      "title": "Post-Launch Support",
+      "desc": "We don't say goodbye after delivery. We offer continuous technical support and iterative improvements to ensure your solution continues to evolve."
+    },
+    "cta": {
+      "title": "Ready to Transform Your Business?",
+      "subtitle": "Schedule a free strategic consultation and discover how we can help you achieve your technological goals",
+      "button": "Schedule Strategic Consultation"
+    }
+  },
+  "OurTeam": {
+    "title": "Our Founding Team",
+    "subtitle": "Four specialized engineers working together to deliver excellence in technological solutions",
+    "backend": {
+      "name": "Backend Specialist",
+      "role": "Backend Engineer",
+      "specialization": "Robust architectures and scalable APIs"
+    },
+    "frontend": {
+      "name": "Frontend Specialist",
+      "role": "Frontend Engineer",
+      "specialization": "Modern interfaces and exceptional user experiences"
+    },
+    "fullstack": {
+      "name": "FullStack Specialist",
+      "role": "FullStack Engineer",
+      "specialization": "End-to-end integrated solutions"
+    },
+    "qa": {
+      "name": "QA Specialist",
+      "role": "Quality Assurance",
+      "specialization": "Testing and quality assurance in every delivery"
+    },
+    "commitment": "Our Commitment as a Team",
+    "year": "1 Year",
+    "yearDesc": "Working together as a founding team",
+    "dedication": "100%",
+    "dedicationDesc": "Dedication to every project we undertake",
+    "specialties": "4",
+    "specialtiesDesc": "Technical specialties that complement each other"
+  },
+  "Contact": {
+    "title": "Schedule Your Strategic Consultation",
+    "subtitle": "Have a brilliant idea? Select a time slot and let's talk about how we can make it a reality",
+    "info": "Contact Information",
+    "description": "We are here to help you materialize your ideas. Contact us through any of these channels and we will respond as soon as possible.",
+    "email": "Email",
+    "phone": "Phone",
+    "schedule": "Business Hours",
+    "scheduleTime": "Mon - Fri: 9:00 AM - 6:00 PM",
+    "follow": "Follow Us",
+    "includes": "What does the consultation include?",
+    "analysis": "Detailed analysis of your project",
+    "proposal": "Personalized technical proposal",
+    "estimation": "Time and cost estimation",
+    "roadmap": "Development roadmap",
+    "select": "Select Your Time",
+    "selectDesc": "Choose the date and time that best fits your availability. You will receive an email confirmation.",
+    "powered": "Powered by"
+  },
+  "Footer": {
+    "description": "We transform ideas into exceptional software. We are your technology partner for digital success.",
+    "tagline": "Specialists in intelligent automation and custom fintech solutions.",
+    "specialties": "Specialties",
+    "conversational": "Conversational Intelligence",
+    "fintech": "Fintech Solutions",
+    "custom": "Custom Development",
+    "consulting": "Tech Consulting",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "home": "Home",
+    "about": "About"
+  },
+  "Language": {
+    "es": "Español",
+    "en": "English"
+  }
+}

@@ -1,3 +1,5 @@
+'use client'
+
 import { 
   MessageSquare, 
   Clock, 
@@ -8,51 +10,54 @@ import {
   Globe,
   Code
 } from 'lucide-react'
+import { useTranslations } from 'next-intl'
 
 export default function OurFocus() {
+  const t = useTranslations('OurFocus')
+  
   const iaFeatures = [
     {
       icon: MessageSquare,
-      title: 'Chatbots Avanzados con IA',
-      description: 'Asistentes virtuales con Procesamiento de Lenguaje Natural (PLN) para comprensión avanzada de la intención del usuario.',
+      titleKey: 'ia.chatbots.title',
+      descKey: 'ia.chatbots.desc',
     },
     {
       icon: Clock,
-      title: 'Disponibilidad 24/7',
-      description: 'Garantía de disponibilidad operativa continua, mejorando la experiencia del cliente y maximizando oportunidades de venta.',
+      titleKey: 'ia.availability.title',
+      descKey: 'ia.availability.desc',
     },
     {
       icon: TrendingUp,
-      title: 'Optimización de Procesos',
-      description: 'Reducción del tiempo de dedicación del personal a tareas operativas rutinarias mediante automatización inteligente.',
+      titleKey: 'ia.optimization.title',
+      descKey: 'ia.optimization.desc',
     },
     {
       icon: Zap,
-      title: 'Escalabilidad Automática',
-      description: 'Soluciones que escalan tus operaciones sin incrementar costos operativos proporcionalmente.',
+      titleKey: 'ia.scalability.title',
+      descKey: 'ia.scalability.desc',
     },
   ]
 
   const fintechFeatures = [
     {
       icon: DollarSign,
-      title: 'Movimientos Transaccionales',
-      description: 'Diseño y modelado de soluciones financieras internacionales principalmente en Colombia y otros países.',
+      titleKey: 'fintech.transactions.title',
+      descKey: 'fintech.transactions.desc',
     },
     {
       icon: Globe,
-      title: 'Fondos Digitales y Criptos',
-      description: 'Permitiendo el acceso a fondos digitales y criptos de maneras simplificadas y seguras.',
+      titleKey: 'fintech.digital.title',
+      descKey: 'fintech.digital.desc',
     },
     {
       icon: Shield,
-      title: 'Trazabilidad de Activos',
-      description: 'Sistemas robustos para el seguimiento y control de activos financieros en tiempo real.',
+      titleKey: 'fintech.tracking.title',
+      descKey: 'fintech.tracking.desc',
     },
     {
       icon: Code,
-      title: 'APIs y Backend Robusto',
-      description: 'Arquitecturas escalables y APIs seguras para aplicaciones financieras de alto rendimiento.',
+      titleKey: 'fintech.apis.title',
+      descKey: 'fintech.apis.desc',
     },
   ]
 
@@ -61,11 +66,11 @@ export default function OurFocus() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Nuestro Foco de Especialización
+            {t('title')}
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-purple-700 mx-auto mb-6"></div>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Nos especializamos en dos áreas clave que transforman la manera en que las empresas operan y crecen
+            {t('subtitle')}
           </p>
         </div>
 
@@ -74,11 +79,10 @@ export default function OurFocus() {
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-3 px-6 py-3 bg-purple-900/40 border border-purple-700/50 text-purple-300 rounded-full mb-6 backdrop-blur-sm">
               <MessageSquare className="w-6 h-6" />
-              <h3 className="text-2xl md:text-3xl font-bold">Inteligencia Conversacional a la Medida</h3>
+              <h3 className="text-2xl md:text-3xl font-bold">{t('ia.title')}</h3>
             </div>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-              Desarrollamos asistentes virtuales y chatbots avanzados con Inteligencia Artificial (IA), 
-              diseñados para solucionar eficientemente la necesidad de atención al cliente automatizada.
+              {t('ia.description')}
             </p>
           </div>
 
@@ -91,8 +95,8 @@ export default function OurFocus() {
                 <div className="w-12 h-12 bg-purple-900/40 border border-purple-700/50 rounded-lg flex items-center justify-center mb-4">
                   <feature.icon className="w-6 h-6 text-purple-400" />
                 </div>
-                <h4 className="text-xl font-bold text-white mb-3">{feature.title}</h4>
-                <p className="text-gray-300 leading-relaxed">{feature.description}</p>
+                <h4 className="text-xl font-bold text-white mb-3">{t(feature.titleKey as any)}</h4>
+                <p className="text-gray-300 leading-relaxed">{t(feature.descKey as any)}</p>
               </div>
             ))}
           </div>
@@ -103,11 +107,10 @@ export default function OurFocus() {
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-3 px-6 py-3 bg-purple-900/40 border border-purple-700/50 text-purple-300 rounded-full mb-6 backdrop-blur-sm">
               <DollarSign className="w-6 h-6" />
-              <h3 className="text-2xl md:text-3xl font-bold">Soluciones Fintech Internacionales</h3>
+              <h3 className="text-2xl md:text-3xl font-bold">{t('fintech.title')}</h3>
             </div>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-              Diseñamos y modelamos soluciones financieras internacionales con movimientos transaccionales 
-              principalmente en Colombia y otros países. Permitiendo el acceso a fondos digitales y criptos de manera simplificada.
+              {t('fintech.description')}
             </p>
           </div>
 
@@ -120,8 +123,8 @@ export default function OurFocus() {
                 <div className="w-12 h-12 bg-purple-900/40 border border-purple-700/50 rounded-lg flex items-center justify-center mb-4">
                   <feature.icon className="w-6 h-6 text-purple-400" />
                 </div>
-                <h4 className="text-xl font-bold text-white mb-3">{feature.title}</h4>
-                <p className="text-gray-300 leading-relaxed">{feature.description}</p>
+                <h4 className="text-xl font-bold text-white mb-3">{t(feature.titleKey as any)}</h4>
+                <p className="text-gray-300 leading-relaxed">{t(feature.descKey as any)}</p>
               </div>
             ))}
           </div>

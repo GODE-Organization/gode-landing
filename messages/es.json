@@ -1,0 +1,234 @@
+{
+  "Navigation": {
+    "home": "Inicio",
+    "about": "Quiénes Somos",
+    "focus": "Nuestro Foco",
+    "success": "Caso de Éxito",
+    "team": "Equipo",
+    "contact": "Contacto",
+    "schedule": "Agendar Consulta"
+  },
+  "Hero": {
+    "badge": "Automatización Inteligente a la Medida",
+    "title": "Automatización Inteligente que",
+    "titleHighlight": "Transforma tu Negocio",
+    "subtitle": "Desarrollamos <ai>asistentes virtuales con IA</ai> y <fintech>soluciones fintech</fintech> que escalan tus operaciones <availability>24/7</availability>",
+    "ai": "asistentes virtuales con IA",
+    "fintech": "soluciones fintech",
+    "availability": "24/7",
+    "feature24": "Disponibilidad 24/7",
+    "featureAI": "IA de Última Generación",
+    "featureCustom": "Soluciones a Medida",
+    "ctaPrimary": "Agenda tu Consulta Estratégica",
+    "ctaSecondary": "Conoce Nuestro Caso de Éxito"
+  },
+  "AboutUs": {
+    "title": "Quiénes Somos",
+    "subtitle": "Un equipo fundador de ingenieros especializados que transforma ideas en soluciones tecnológicas de alto impacto",
+    "heading": "GODE Devs: Ingeniería de Software y Soluciones a Medida",
+    "description1": "Somos un servicio de desarrollo tecnológico a medida con sede en {location}. Nuestro valor reside en un equipo fundador compuesto por {engineers} con especializaciones técnicas profundas.",
+    "location": "Nueva Esparta, Venezuela",
+    "engineers": "cuatro ingenieros de sistemas",
+    "description2": "Nos definimos como un {partner} enfocado en soluciones a medida, dedicados a traducir la complejidad técnica en una ventaja competitiva cuantificable para nuestros clientes.",
+    "partner": "socio tecnológico",
+    "description3": "Contamos con experiencia en el desarrollo de soluciones de automatización inteligente y activos de propiedad intelectual, incluyendo trabajos para el sector académico (Universidad de Margarita - UNIMAR) y la industria fintech a nivel internacional.",
+    "engineersCount": "4 Ingenieros",
+    "engineersDesc": "Equipo fundador especializado: Backend, Frontend, FullStack y QA",
+    "year": "1 Año",
+    "yearDesc": "Trabajando juntos como equipo especializado",
+    "locationLabel": "Nueva Esparta",
+    "locationDesc": "Venezuela - Trabajando para clientes internacionales",
+    "experience": "Experiencia Real",
+    "experienceDesc": "UNIMAR y Fintech en Colombia",
+    "credentials": "Nuestras Credenciales",
+    "academic": "Sector Académico",
+    "academicDesc": "Hemos desarrollado soluciones para la {unimar}, contribuyendo a la transformación digital del sector educativo.",
+    "unimar": "Universidad de Margarita (UNIMAR)",
+    "fintech": "Industria Fintech",
+    "fintechDesc": "Experiencia en desarrollo de {fintechSolutions} principalmente en Colombia y otros mercados internacionales.",
+    "fintechSolutions": "billeteras virtuales, trazabilidad de activos y manejo de datos financieros"
+  },
+  "OurFocus": {
+    "title": "Nuestro Foco de Especialización",
+    "subtitle": "Nos especializamos en dos áreas clave que transforman la manera en que las empresas operan y crecen",
+    "ia": {
+      "title": "Inteligencia Conversacional a la Medida",
+      "description": "Desarrollamos asistentes virtuales y chatbots avanzados con Inteligencia Artificial (IA), diseñados para solucionar eficientemente la necesidad de atención al cliente automatizada.",
+      "chatbots": {
+        "title": "Chatbots Avanzados con IA",
+        "desc": "Asistentes virtuales con Procesamiento de Lenguaje Natural (PLN) para comprensión avanzada de la intención del usuario."
+      },
+      "availability": {
+        "title": "Disponibilidad 24/7",
+        "desc": "Garantía de disponibilidad operativa continua, mejorando la experiencia del cliente y maximizando oportunidades de venta."
+      },
+      "optimization": {
+        "title": "Optimización de Procesos",
+        "desc": "Reducción del tiempo de dedicación del personal a tareas operativas rutinarias mediante automatización inteligente."
+      },
+      "scalability": {
+        "title": "Escalabilidad Automática",
+        "desc": "Soluciones que escalan tus operaciones sin incrementar costos operativos proporcionalmente."
+      }
+    },
+    "fintech": {
+      "title": "Soluciones Fintech Internacionales",
+      "description": "Diseñamos y modelamos soluciones financieras internacionales con movimientos transaccionales principalmente en Colombia y otros países. Permitiendo el acceso a fondos digitales y criptos de manera simplificada.",
+      "transactions": {
+        "title": "Movimientos Transaccionales",
+        "desc": "Diseño y modelado de soluciones financieras internacionales principalmente en Colombia y otros países."
+      },
+      "digital": {
+        "title": "Fondos Digitales y Criptos",
+        "desc": "Permitiendo el acceso a fondos digitales y criptos de maneras simplificadas y seguras."
+      },
+      "tracking": {
+        "title": "Trazabilidad de Activos",
+        "desc": "Sistemas robustos para el seguimiento y control de activos financieros en tiempo real."
+      },
+      "apis": {
+        "title": "APIs y Backend Robusto",
+        "desc": "Arquitecturas escalables y APIs seguras para aplicaciones financieras de alto rendimiento."
+      }
+    }
+  },
+  "SuccessCase": {
+    "title": "Nuestro Caso de Éxito",
+    "subtitle": "Aunque somos un equipo nuevo, ya hemos completado proyectos exitosos que demuestran nuestro potencial y compromiso",
+    "badge": "Proyecto Completado",
+    "heading": "Proyecto Exitoso: Automatización Inteligente",
+    "description1": "Hemos completado nuestro primer proyecto exitoso, demostrando nuestra capacidad para entregar soluciones tecnológicas de alta calidad. Este proyecto nos ha permitido validar nuestras metodologías y fortalecer nuestro equipo.",
+    "description2": "{approach}: No medimos nuestro éxito en cantidad de proyectos, sino en la {quality} de cada solución que desarrollamos. Cada proyecto es una oportunidad para demostrar nuestro compromiso con la excelencia técnica.",
+    "approach": "Nuestro enfoque",
+    "quality": "calidad y el impacto",
+    "validated": "Experiencia Validada",
+    "validatedDesc": "Proyectos completados con metodologías probadas",
+    "qualityTitle": "Enfoque en Calidad",
+    "qualityDesc": "Cada proyecto recibe atención personalizada y dedicada",
+    "commitment": "Compromiso Comprobado",
+    "commitmentDesc": "Entregas puntuales y soporte continuo",
+    "values": "Nuestros Valores",
+    "results": "Enfoque en Resultados",
+    "resultsDesc": "Cada proyecto está diseñado para generar valor real y medible",
+    "innovation": "Innovación Constante",
+    "innovationDesc": "Utilizamos las últimas tecnologías y mejores prácticas de la industria",
+    "teamwork": "Trabajo en Equipo",
+    "teamworkDesc": "Colaboración estrecha con nuestros clientes en cada etapa",
+    "growth": "Crecimiento Continuo",
+    "growthDesc": "Aprendemos y mejoramos con cada proyecto que completamos",
+    "metrics": {
+      "engineers": "Ingenieros Especializados",
+      "custom": "Enfoque en Soluciones a Medida",
+      "availability": "Disponibilidad Garantizada",
+      "experience": "Año de Experiencia"
+    }
+  },
+  "WhyChooseUs": {
+    "title": "Por Qué Elegir GODE Devs",
+    "subtitle": "Somos más que desarrolladores. Somos tu socio tecnológico para la transformación digital",
+    "founders": {
+      "title": "Equipo Fundador Especializado",
+      "desc": "Cuatro ingenieros de sistemas con especializaciones técnicas profundas: Backend, Frontend, FullStack y Aseguramiento de Calidad (QA). Cada miembro aporta experiencia única al proyecto."
+    },
+    "custom": {
+      "title": "Soluciones a Medida",
+      "desc": "No vendemos productos genéricos. Cada solución está diseñada específicamente para las necesidades de tu organización, traduciendo la complejidad técnica en ventaja competitiva."
+    },
+    "ia": {
+      "title": "Experiencia en IA Conversacional",
+      "desc": "Especialización probada en desarrollo de asistentes virtuales y chatbots avanzados con Inteligencia Artificial, integrando Procesamiento de Lenguaje Natural (PLN)."
+    },
+    "fintech": {
+      "title": "Conocimiento Fintech",
+      "desc": "Experiencia en desarrollo de soluciones financieras internacionales, billeteras virtuales, trazabilidad de activos y manejo de datos financieros en Colombia y otros países."
+    },
+    "availability": {
+      "title": "Disponibilidad 24/7",
+      "desc": "Garantía de disponibilidad operativa continua para tus sistemas automatizados, mejorando la experiencia del cliente y maximizando oportunidades de venta."
+    },
+    "transparency": {
+      "title": "Transparencia y Comunicación",
+      "desc": "Comunicación transparente y continua en cada etapa del proyecto. Sabrás exactamente qué está pasando y cuándo, sin sorpresas ni costos ocultos."
+    },
+    "optimization": {
+      "title": "Optimización de Procesos",
+      "desc": "Reducción potencial del tiempo de dedicación del personal a tareas operativas rutinarias mediante automatización inteligente, permitiéndote enfocarte en lo que realmente importa."
+    },
+    "support": {
+      "title": "Soporte Post-Lanzamiento",
+      "desc": "No nos despedimos después de la entrega. Ofrecemos soporte técnico continuo y mejoras iterativas para asegurar que tu solución siga evolucionando."
+    },
+    "cta": {
+      "title": "¿Listo para Transformar tu Negocio?",
+      "subtitle": "Agenda una consulta estratégica gratuita y descubre cómo podemos ayudarte a alcanzar tus objetivos tecnológicos",
+      "button": "Agendar Consulta Estratégica"
+    }
+  },
+  "OurTeam": {
+    "title": "Nuestro Equipo Fundador",
+    "subtitle": "Cuatro ingenieros especializados trabajando juntos para entregar soluciones tecnológicas de excelencia",
+    "backend": {
+      "name": "Especialista Backend",
+      "role": "Ingeniero Backend",
+      "specialization": "Arquitecturas robustas y APIs escalables"
+    },
+    "frontend": {
+      "name": "Especialista Frontend",
+      "role": "Ingeniero Frontend",
+      "specialization": "Interfaces modernas y experiencias de usuario excepcionales"
+    },
+    "fullstack": {
+      "name": "Especialista FullStack",
+      "role": "Ingeniero FullStack",
+      "specialization": "Soluciones end-to-end integradas"
+    },
+    "qa": {
+      "name": "Especialista QA",
+      "role": "Aseguramiento de Calidad",
+      "specialization": "Testing y garantía de calidad en cada entrega"
+    },
+    "commitment": "Nuestro Compromiso como Equipo",
+    "year": "1 Año",
+    "yearDesc": "Trabajando juntos como equipo fundador",
+    "dedication": "100%",
+    "dedicationDesc": "Dedicación a cada proyecto que emprendemos",
+    "specialties": "4",
+    "specialtiesDesc": "Especialidades técnicas que se complementan"
+  },
+  "Contact": {
+    "title": "Agenda tu Consulta Estratégica",
+    "subtitle": "¿Tienes una idea brillante? Selecciona un horario y conversemos sobre cómo podemos convertirla en realidad",
+    "info": "Información de Contacto",
+    "description": "Estamos aquí para ayudarte a materializar tus ideas. Contáctanos a través de cualquiera de estos canales y te responderemos lo antes posible.",
+    "email": "Email",
+    "phone": "Teléfono",
+    "schedule": "Horario de Atención",
+    "scheduleTime": "Lun - Vie: 9:00 AM - 6:00 PM",
+    "follow": "Síguenos",
+    "includes": "¿Qué incluye la consulta?",
+    "analysis": "Análisis detallado de tu proyecto",
+    "proposal": "Propuesta técnica personalizada",
+    "estimation": "Estimación de tiempos y costos",
+    "roadmap": "Roadmap de desarrollo",
+    "select": "Selecciona tu Horario",
+    "selectDesc": "Elige la fecha y hora que mejor se ajuste a tu disponibilidad. Recibirás una confirmación por email.",
+    "powered": "Powered by"
+  },
+  "Footer": {
+    "description": "Transformamos ideas en software excepcional. Somos tu socio tecnológico para el éxito digital.",
+    "tagline": "Especialistas en automatización inteligente y soluciones fintech a la medida.",
+    "specialties": "Especialidades",
+    "conversational": "Inteligencia Conversacional",
+    "fintech": "Soluciones Fintech",
+    "custom": "Desarrollo a Medida",
+    "consulting": "Consultoría Tech",
+    "contact": "Contacto",
+    "rights": "Todos los derechos reservados.",
+    "home": "Inicio",
+    "about": "Nosotros"
+  },
+  "Language": {
+    "es": "Español",
+    "en": "English"
+  }
+}
