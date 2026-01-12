@@ -12,7 +12,7 @@ export const routing = defineRouting({
   localePrefix: {
     mode: 'as-needed',
     prefixes: {
-      es: false,
+      es: '',
       en: '/en'
     }
   }
