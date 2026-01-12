@@ -10,6 +10,17 @@ import {
   DollarSign
 } from 'lucide-react'
 
+const colors = {
+  primary: 'bg-purple-900/20 border-purple-700/50 text-purple-400',
+  blue: 'bg-purple-900/20 border-purple-700/50 text-purple-400',
+  green: 'bg-purple-900/20 border-purple-700/50 text-purple-400',
+  purple: 'bg-purple-900/20 border-purple-700/50 text-purple-400',
+  orange: 'bg-purple-900/20 border-purple-700/50 text-purple-400',
+  red: 'bg-purple-900/20 border-purple-700/50 text-purple-400',
+  teal: 'bg-purple-900/20 border-purple-700/50 text-purple-400',
+  pink: 'bg-purple-900/20 border-purple-700/50 text-purple-400',
+}
+
 export default function WhyChooseUs() {
   const reasons = [
     {
@@ -63,28 +74,18 @@ export default function WhyChooseUs() {
   ]
 
   const getColorClasses = (color: string) => {
-    const colors: Record<string, string> = {
-      primary: 'bg-primary-100 text-primary-600 border-primary-200',
-      blue: 'bg-blue-100 text-blue-600 border-blue-200',
-      green: 'bg-green-100 text-green-600 border-green-200',
-      purple: 'bg-purple-100 text-purple-600 border-purple-200',
-      orange: 'bg-orange-100 text-orange-600 border-orange-200',
-      red: 'bg-red-100 text-red-600 border-red-200',
-      teal: 'bg-teal-100 text-teal-600 border-teal-200',
-      pink: 'bg-pink-100 text-pink-600 border-pink-200',
-    }
-    return colors[color] || colors.primary
+    return colors[color as keyof typeof colors] || colors.primary
   }
 
   return (
-    <section className="py-20 md:py-32 bg-gradient-to-b from-white to-gray-50">
+    <section className="py-20 md:py-32 bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Por Qué Elegir GODE Devs
           </h2>
-          <div className="w-24 h-1 bg-primary-600 mx-auto mb-6"></div>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-purple-700 mx-auto mb-6"></div>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Somos más que desarrolladores. Somos tu socio tecnológico para la transformación digital
           </p>
         </div>
@@ -93,29 +94,29 @@ export default function WhyChooseUs() {
           {reasons.map((reason, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+              className="bg-gray-900/50 border-2 border-gray-800 hover:border-purple-600 hover:shadow-xl hover:shadow-purple-900/20 p-6 rounded-xl transition-all duration-300 transform hover:-translate-y-1"
             >
-              <div className={`w-14 h-14 ${getColorClasses(reason.color)} rounded-lg flex items-center justify-center mb-4 border-2`}>
+              <div className={`w-14 h-14 ${getColorClasses(reason.color)} rounded-lg flex items-center justify-center mb-4 border-2 backdrop-blur-sm`}>
                 <reason.icon className="w-7 h-7" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">{reason.title}</h3>
-              <p className="text-gray-600 leading-relaxed text-sm">{reason.description}</p>
+              <h3 className="text-xl font-bold text-white mb-3">{reason.title}</h3>
+              <p className="text-gray-300 leading-relaxed text-sm">{reason.description}</p>
             </div>
           ))}
         </div>
 
         {/* CTA Section */}
         <div className="mt-16 text-center">
-          <div className="bg-gradient-to-r from-primary-600 to-blue-600 rounded-2xl p-8 md:p-12 text-white">
+          <div className="bg-gradient-to-r from-purple-600 to-purple-700 rounded-2xl p-8 md:p-12 text-white shadow-xl shadow-purple-900/50">
             <h3 className="text-3xl md:text-4xl font-bold mb-4">
               ¿Listo para Transformar tu Negocio?
             </h3>
-            <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
               Agenda una consulta estratégica gratuita y descubre cómo podemos ayudarte a alcanzar tus objetivos tecnológicos
             </p>
             <a
               href="#contacto"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary-600 font-semibold rounded-lg hover:bg-gray-100 transition-all duration-200 shadow-lg hover:shadow-xl"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-white text-purple-600 font-semibold rounded-lg hover:bg-gray-100 transition-all duration-200 shadow-lg hover:shadow-xl"
             >
               Agendar Consulta Estratégica
             </a>

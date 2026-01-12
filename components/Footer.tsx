@@ -21,12 +21,12 @@ export default function Footer() {
             <h4 className="text-lg font-semibold text-white mb-4">Especialidades</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#nuestro-foco" className="hover:text-white transition-colors">
+                <a href="#nuestro-foco" className="hover:text-purple-400 transition-colors">
                   Inteligencia Conversacional
                 </a>
               </li>
               <li>
-                <a href="#nuestro-foco" className="hover:text-white transition-colors">
+                <a href="#nuestro-foco" className="hover:text-purple-400 transition-colors">
                   Soluciones Fintech
                 </a>
               </li>
@@ -48,28 +48,28 @@ export default function Footer() {
             <h4 className="text-lg font-semibold text-white mb-4">Contacto</h4>
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
-                <Mail className="w-5 h-5 text-primary-400 flex-shrink-0 mt-0.5" />
-                <a href="mailto:gode.devs@gmail.com" className="hover:text-white transition-colors">
+                <Mail className="w-5 h-5 text-purple-400 flex-shrink-0 mt-0.5" />
+                <a href="mailto:gode.devs@gmail.com" className="hover:text-purple-400 transition-colors">
                   gode.devs@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-2">
-                <Phone className="w-5 h-5 text-primary-400 flex-shrink-0 mt-0.5" />
-                <a href="tel:+584264888167" className="hover:text-white transition-colors">
+                <Phone className="w-5 h-5 text-purple-400 flex-shrink-0 mt-0.5" />
+                <a href="tel:+584264888167" className="hover:text-purple-400 transition-colors">
                   +58 (426) 488 8167
                 </a>
               </li>
               <li className="flex items-start gap-2">
-                <Clock className="w-5 h-5 text-primary-400 flex-shrink-0 mt-0.5" />
+                <Clock className="w-5 h-5 text-purple-400 flex-shrink-0 mt-0.5" />
                 <span>Lun - Vie: 9:00 AM - 6:00 PM</span>
               </li>
               <li className="flex items-start gap-2">
-                <Instagram className="w-5 h-5 text-primary-400 flex-shrink-0 mt-0.5" />
+                <Instagram className="w-5 h-5 text-purple-400 flex-shrink-0 mt-0.5" />
                 <a
                   href="https://instagram.com/gode.devs"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-white transition-colors"
+                  className="hover:text-purple-400 transition-colors"
                 >
                   @gode.devs
                 </a>

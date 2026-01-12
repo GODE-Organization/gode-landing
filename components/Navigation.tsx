@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -28,15 +29,24 @@ export default function Navigation() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-white/95 backdrop-blur-md shadow-lg'
-          : 'bg-white/90 backdrop-blur-sm'
+          ? 'bg-gray-900/95 backdrop-blur-md shadow-lg shadow-purple-900/20'
+          : 'bg-gray-900/90 backdrop-blur-sm'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 md:h-20">
           <div className="flex-shrink-0">
-            <a href="#inicio" className="text-2xl md:text-3xl font-bold gradient-text">
-              GODE Devs
+            <a href="#inicio" className="flex items-center gap-2">
+              <Image
+                src="/images/logos/gode.svg"
+                alt="GODE Devs"
+                width={40}
+                height={40}
+                className="w-8 h-8 md:w-10 md:h-10"
+              />
+              <span className="text-xl md:text-2xl font-bold text-white hidden sm:inline">
+                GODE Devs
+              </span>
             </a>
           </div>
 
@@ -46,7 +56,7 @@ export default function Navigation() {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200"
+                className="text-gray-300 hover:text-purple-400 font-medium transition-colors duration-200"
               >
                 {item.name}
               </a>
@@ -55,14 +65,14 @@ export default function Navigation() {
 
           <a
             href="#contacto"
-            className="hidden md:inline-flex items-center px-6 py-2.5 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors duration-200 shadow-md hover:shadow-lg"
+            className="hidden md:inline-flex items-center px-6 py-2.5 bg-gradient-to-r from-purple-600 to-purple-700 text-white font-semibold rounded-lg hover:from-purple-700 hover:to-purple-800 transition-all duration-200 shadow-md shadow-purple-900/50 hover:shadow-lg"
           >
             Agendar Consulta
           </a>
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden p-2 rounded-md text-gray-700 hover:bg-gray-100"
+            className="md:hidden p-2 rounded-md text-gray-300 hover:bg-gray-800"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? (
@@ -76,13 +86,13 @@ export default function Navigation() {
 
       {/* Mobile Navigation */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-white border-t">
+        <div className="md:hidden bg-gray-800 border-t border-gray-700">
           <div className="px-4 pt-2 pb-4 space-y-2">
             {navItems.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
-                className="block px-3 py-2 text-gray-700 hover:bg-gray-50 rounded-md font-medium"
+                className="block px-3 py-2 text-gray-300 hover:bg-gray-700 hover:text-purple-400 rounded-md font-medium transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {item.name}
@@ -90,7 +100,7 @@ export default function Navigation() {
             ))}
             <a
               href="#contacto"
-              className="block px-3 py-2 mt-4 bg-primary-600 text-white font-semibold rounded-md text-center"
+              className="block px-3 py-2 mt-4 bg-gradient-to-r from-purple-600 to-purple-700 text-white font-semibold rounded-md text-center"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Agendar Consulta
