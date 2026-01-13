@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://gode-devs.com
+
+# Sitemaps
+Sitemap: https://gode-devs.com/sitemap.xml

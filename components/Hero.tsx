@@ -61,6 +61,7 @@ export default function Hero() {
             <a
               href="#contacto"
               className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-purple-600 to-purple-700 text-white font-semibold rounded-lg hover:from-purple-700 hover:to-purple-800 transition-all duration-200 shadow-lg shadow-purple-900/50 hover:shadow-xl transform hover:-translate-y-0.5"
+              aria-label={t('ctaPrimary')}
             >
               {t('ctaPrimary')}
               <ArrowRight className="w-5 h-5" />
@@ -68,6 +69,7 @@ export default function Hero() {
             <a
               href="#caso-exito"
               className="inline-flex items-center gap-2 px-8 py-4 bg-gray-800 text-purple-400 font-semibold rounded-lg border-2 border-purple-600 hover:bg-gray-700 transition-all duration-200"
+              aria-label={t('ctaSecondary')}
             >
               {t('ctaSecondary')}
             </a>

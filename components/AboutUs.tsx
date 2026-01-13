@@ -26,13 +26,13 @@ export default function AboutUs() {
             </h3>
             <p className="text-gray-300 mb-4 leading-relaxed">
               {t.rich('description1', {
-                location: (chunks) => <strong className="text-purple-400">{chunks}</strong>,
-                engineers: (chunks) => <strong className="text-purple-400">{chunks}</strong>,
+                location: () => <strong className="text-purple-400">{t('location')}</strong>,
+                engineers: () => <strong className="text-purple-400">{t('engineers')}</strong>,
               })}
             </p>
             <p className="text-gray-300 mb-4 leading-relaxed">
               {t.rich('description2', {
-                partner: (chunks) => <strong className="text-purple-400">{chunks}</strong>,
+                partner: () => <strong className="text-purple-400">{t('partner')}</strong>,
               })}
             </p>
             <p className="text-gray-300 leading-relaxed">

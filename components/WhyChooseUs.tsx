@@ -121,6 +121,7 @@ export default function WhyChooseUs() {
             <a
               href="#contacto"
               className="inline-flex items-center gap-2 px-8 py-4 bg-white text-purple-600 font-semibold rounded-lg hover:bg-gray-100 transition-all duration-200 shadow-lg hover:shadow-xl"
+              aria-label={t('cta.button')}
             >
               {t('cta.button')}
             </a>

@@ -8,6 +8,8 @@ const nextConfig = {
   images: {
     domains: [],
   },
+  // Deshabilitar el header de powered by
+  poweredByHeader: false,
   // Permitir iframes de Cal.com
   headers: async () => {
     return [

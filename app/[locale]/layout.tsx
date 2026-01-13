@@ -11,6 +11,9 @@ import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export function generateMetadata({params: {locale}}: {params: {locale: string}}): Metadata {
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://gode-devs.com'
+  const currentUrl = locale === 'es' ? baseUrl : `${baseUrl}/en`
+  
   return {
     title: locale === 'en' 
       ? 'GODE Devs - Intelligent Automation and Fintech Solutions'
@@ -22,6 +25,24 @@ export function generateMetadata({params: {locale}}: {params: {locale: string}})
       ? 'software development, intelligent automation, AI chatbots, fintech solutions, virtual assistants, custom development'
       : 'desarrollo de software, automatización inteligente, chatbots IA, soluciones fintech, asistentes virtuales, desarrollo a medida',
     authors: [{ name: 'GODE Devs' }],
+    icons: {
+      icon: [
+        { url: '/favicon.ico', sizes: 'any' },
+        { url: '/images/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+        { url: '/images/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
+      ],
+      apple: [
+        { url: '/images/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+      ],
+    },
+    manifest: '/site.webmanifest',
+    alternates: {
+      canonical: currentUrl,
+      languages: {
+        'es': baseUrl,
+        'en': `${baseUrl}/en`,
+      },
+    },
     openGraph: {
       title: locale === 'en'
         ? 'GODE Devs - Intelligent Automation Made to Measure'
@@ -30,6 +51,9 @@ export function generateMetadata({params: {locale}}: {params: {locale: string}})
         ? 'Founding team of engineers specialized in intelligent automation and fintech solutions'
         : 'Equipo fundador de ingenieros especializados en automatización inteligente y soluciones fintech',
       type: 'website',
+      url: currentUrl,
+      locale: locale === 'es' ? 'es_ES' : 'en_US',
+      alternateLocale: locale === 'es' ? 'en_US' : 'es_ES',
     },
   }
 }
