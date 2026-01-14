@@ -28,12 +28,15 @@ export function generateMetadata({params: {locale}}: {params: {locale: string}})
     icons: {
       icon: [
         { url: '/favicon.ico', sizes: 'any' },
+        { url: '/favicon.ico', sizes: '32x32', type: 'image/x-icon' },
+        { url: '/favicon.ico', sizes: '16x16', type: 'image/x-icon' },
         { url: '/images/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
         { url: '/images/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
       ],
       apple: [
         { url: '/images/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
       ],
+      shortcut: '/favicon.ico',
     },
     manifest: '/site.webmanifest',
     alternates: {
@@ -75,14 +78,16 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={params.locale}>
-      <body className={inter.className}>
+    <html lang={params.locale} className="max-w-full min-h-screen">
+      <body className={`${inter.className} max-w-full min-h-screen w-full`}>
         <NextIntlClientProvider messages={messages}>
-          <Navigation />
-          <main className="min-h-screen">
-            {children}
-          </main>
-          <Footer />
+          <div className="overflow-x-hidden max-w-full min-h-screen w-full">
+            <Navigation />
+            <main className="min-h-screen overflow-x-hidden w-full">
+              {children}
+            </main>
+            <Footer />
+          </div>
         </NextIntlClientProvider>
       </body>
     </html>
