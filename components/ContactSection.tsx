@@ -37,8 +37,8 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-white mb-1">{t('email')}</h4>
-                  <a href="mailto:gode.devs@gmail.com" className="text-purple-400 hover:text-purple-300 hover:underline transition-colors">
-                    gode.devs@gmail.com
+                  <a href="mailto:gode@gode-devs.com" className="text-purple-400 hover:text-purple-300 hover:underline transition-colors">
+                    gode@gode-devs.com
                   </a>
                 </div>
               </div>

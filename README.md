@@ -80,7 +80,7 @@ El proyecto puede ser desplegado en cualquier plataforma que soporte Next.js:
 
 ## 📧 Información de Contacto
 
-- **Email**: gode.devs@gmail.com
+- **Email**: gode@gode-devs.com
 - **Teléfono**: +58 (426) 488 8167
 - **Instagram**: @gode.devs
 
